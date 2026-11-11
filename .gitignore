@@ -1,0 +1,20 @@
+# Environment
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data & models are REBUILT, never committed (see docs/GIT_TRACK.md, Stage 4)
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# Secrets
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
